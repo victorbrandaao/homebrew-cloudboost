@@ -8,7 +8,7 @@ cask "cloudboost" do
   desc "macOS menu bar app for cloud and Mac gaming session diagnostics"
   homepage "https://victorbrandaao.github.io/CloudBoost/"
 
-  depends_on macos: ">= :monterey"
+  depends_on macos: :monterey
 
   app "CloudBoost.app"
 
